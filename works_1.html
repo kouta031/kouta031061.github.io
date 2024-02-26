@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" href="works_1.css">
+</head>
+
+<body>
+    <div class="stars">
+    <div id="wrapper">
+        <header class="header">
+            <div class="header__inner">
+                <div class="header__flex">
+                    <h1 class="header__logo"><a href="main_t.html"><img src="./ロゴ3.png" alt=""></a></h1>
+                    <nav>
+                        <ul class="header__ul">
+                            <li class="header__li"><a class="header__a" href="./about.html">ABOUT</a></li>
+                            <li class="header__li"><a class="header__a" href="#works"> WORKS </a></li>
+                            <li class="header__li"><a class="header__a" href="./contact.html">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="work">
+                <h2 class="work__title">portfolio</h2>
+                <h3 class="work__time">2023.12</h3>
+                <img class="work__img" src="works1.png" alt="">
+                <h4 class="work__sub">制作詳細</h4>
+                <dl class="work__ul">
+                    <div class="work__flex">
+                        <dt class="work__dt">制作期間</dt>
+                        <dd class="work__dd">1ヶ月半</dd>
+                    </div>
+                    <div class="work__flex">
+                        <dt class="work__dt">公開日</dt>
+                        <dd class="work__dd">2024/1/11</dd>
+                    </div>
+                    <div class="work__flex">
+                        <dt class="work__dt">リンク</dt>
+                        <button class="slide"><dd class="work__dd"><a href="https://kouta031.github.io/kouta031061.github.io/">こちら</a></dd></button>
+                    </div>
+                </dl>
+                <div class="work__hoge">
+                    <h4 class="work__sub">portfolio</h4>
+                    <p class="work__text">今回は就職で使用する際のportfolioを制作しました。<br><br>
+
+                        portfolioは企業様に見てもらう大事な作品集なので、できるだけ見やすく操作しやすいように作成ました。</p>
+                    <h4 class="work__sub">デザイン</h4>
+                    <p class="work__text">
+                        最初にportfolioのデザインをしていきます。コーディングは大学の授業で習ってきたのもあり、応用が聞きましたが、本格的に作成するのは初めてだったのでかなり苦戦しました。
+                        <br><br>
+                        jsやcssなどを用いてアニメーションを利用し、見ている人が飽きないようなportfolioを意識しました。
+                    </p>
+                    <h4 class="work__sub">ファーストビュー</h4>
+                    <img class="work__img" src="ファーストビュー.jpg" alt="">
+                    <p class="work__text">
+                        まずはロゴ製作をしていきました。自分が好きな動物である犬を使いたかったので、犬をモチーフにし、SASAKI KOUTAの苗字と名前の最初の文字であるS.Kを取り出してシンプルでクールなものにしました。
+                        <br><br>
+                        次はナビゲーションです。これはABOUT,WORK,CONTACTの3つでシンプルにしました。この3つはホバーすると黒の四角形が左から出てきてそれに合わせテキストを白色になるようにしました。
+                        <br><br>
+                        最後に真ん中のテキストアニメーションです。大きいテキストのSASAKI KOUTAが横から出てくるようなデザインにし、目に飛びつく、かつシンプルなデザインを心がけました。
+                    </p>
+                    <h4 class="work__sub">ABOUT</h4>
+                    <img class="work__img" src="アバウト.jpg" alt="">
+                    <p class="work__text">
+                        次にABOUTを作っていきました。ここでは自分の写真と簡単な自己紹介だけを書きました。この写真は写真は東京に行った際、洋服屋での入り口近くで撮った写真です。こんなところで写真を撮るほどなので、もちろんファッションが大好きです。<br><br>
+                        右の情報は名前、生年月日、学校名、志望職種だけを書きました。下のABOUTページに飛ぶためのボタンを押して詳細を見れる様にすることでより多くの人に見てもらえる様にしました。ボタンにもボックスが白色から黒色になるホバーアニメーションを加え、見ている人が押したくなるように意識しました。
+                    </p>
+                    <h4 class="work__sub">WORK</h4>
+                    <img class="work__img" src="ワーク.jpg" alt="">
+                    <p class="work__text">
+                        その次に自分の作品の一覧が見れるWORKを作っていきました。<br><br>
+                        ここもシンプルに自分の作品のPC画面の画像、スマホ画面の画像と作品名だけにしました。選択した作品がわかりやすくするために、画像が拡大するホバーアニメーションを加えました。
+                    <h4 class="work__sub">CONTACT</h4>
+                    <img class="work__img" src="コンタクト.jpg" alt="">
+                    <p class="work__text">
+                        このCONTACTもできるだけシンプルにして簡単な文章とボタンだけにしました。<br><br>
+                        CONTACTページに飛ぶためのボタンを押して詳細を見れる様にすることでより多くの人に見てもらえる様にしました。ここのボタンにもボックスの形と色が変形するホバーアニメーションを加え、見ている人が押したくなるように意識しました。
+                    </p>
+                    <h4 class="work__sub">ABOUTページ</h4>
+                    <img class="work__img" src="アバウト2.jpg" alt="">
+                    <p class="work__text">
+                        これはABOUTページです。最初はすごいシンプルにしました。なぜなら、ここよりも下記の詳細を見てほしいからです。
+                    </p><br><br>
+                    <img class="work__img" src="アバウト3.jpg" alt="">
+                    <p class="work__text">
+                        次に今までどの様にして私がフロントエンドエンジニア、UI/UXデザイナーに興味を持ったのかを書いていきました。GSAPというものを使って横スクロールできるような動きをつけています。ここは1から覚えて取り組んだので正常に動作して本当に良かったです。
+                    </p><br><br>
+                    <img class="work__img" src="アバウト4.jpg" alt="">
+                    <p class="work__text">
+                        ここでは自分が使えるソフトがどれほど使えるのかというものを表しました。表現方法をどうしようか悩んだのですが、ここもシンプルに星で作らせていただきました。
+                    </p><br><br>
+                    <img class="work__img" src="アバウト5.jpg" alt="">
+                    <p class="work__text">
+                        このページの最後にはこのportfolioを見てくださった皆さんに向けてコメントを書きました。ここは正直文字羅列だけなので説明する様なことはありませんが、読んでくださったら幸いです。
+                    </p>
+                    <h4 class="work__sub">CONTACTページ</h4>
+                    <img class="work__img" src="コンタクト2.jpg" alt="">
+                    <p class="work__text">
+                        最後はCONTACTページです。<br><br>
+                        ここは自分のgoogleフォームを埋め込みました。内容は名前とメールアドレス、メッセージだけの3項目で簡単に送信できるようなものにしました。
+                    </p>
+                    <h4 class="work__sub">最後に</h4>
+                    <p class="work__text">
+                        今回portfolioを作成してみて、自分のやりたい動きや、イメージしたデザインを表現できたと感じております。<br><br>
+                        大学では、html、cssが覚えたてで見づらく操作しにくいWebサイトになり、またjsの活用が少なく、つならないWebサイトになってしまいましたが、今回のportfolio作成で本当に成長したと思います。
+                        今後も、さらに成長できるように取り組んでいきたいです。
+                    </p>
+                    <br>
+                    <p class="work__btn"><a href="main_t.html#works">一覧に戻る</a></p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copy"><small>@2023 Sasaki Kouta</small></p>
+            <ul class="footer__ul">
+                <li class="footer__li"><a class="footer__color" href="./about.html">ABOUT</a></li>
+                <li class="footer__li"><a class="footer__color" href="#works"> WORKS </a></li>
+                <li class="footer__li"><a class="footer__color" href="./contact.html">CONTACT</a></li>
+                <li class="footer__li"><a class="footer__color"
+                        href="https://www.instagram.com/ai_he_ko7?igsh=MWE0b2hlN3p1bnQ4OQ%3D%3D&utm_source=qr"><img src="inst_in.png" width="30px"
+                            alt=""></a></li>
+            </ul>
+        </footer>
+    </div>
+   </div>
+ 
+  
+    <script src="main_t2.js"></script>
+</body>
+
+</html>
